@@ -31,18 +31,15 @@ Please add `data` in the `fsod` directory and the structure is :
   ```
   YOUR_PATH
       └── fsod
-            ├── code files
+            ├── other files
             └── data
-                  ├──── fsod
-                  |       ├── annotations
-                  │       │       ├── fsod_train.json
-                  │       │       └── fsod_test.json
-                  │       └── images
-                  │             ├── part_1
-                  │             └── part_2
-                  │ 
-                  └──── pretrained_model
-                          └── model_final.pkl (from detectron model zoo: End-to-End Faster & Mask R-CNN Baselines R-50-C4 Faster 2x model)
+                  └──── fsod
+                          ├── annotations
+                          │       ├── fsod_train.json
+                          │       └── fsod_test.json
+                          └── images
+                                ├── part_1
+                                └── part_2
   ```  
   
 ### Training and evaluation
